@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script>
+	
+	function Employee (firstName, lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
+	
+	Employee.prototype.fullName = function () {
+		return this.firstName + ' ' + this.lastName;
+	}
+	
+	var emp1 = new Employee('Charles', 'Darwin');
+	var emp2 = new Employee('Charles', 'Leclerc');
+	
+	
+	
+</script>
+</body>
+</html>

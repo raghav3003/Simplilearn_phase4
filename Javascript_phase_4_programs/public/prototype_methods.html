@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script>
+	function Student () {
+		this.name = 'Charled';
+		this.gender = 'Male';
+	}
+	
+	Student.prototype.age = 15;
+	
+	var studObj1 = new Student();
+	alert(studObj1.age);
+	
+	var studObj2 = new Student();
+	alert(studObj2.age);
+	
+	Student.prototype = {age: 35};
+	
+	var studObj3 = new Student();
+	alert(studObj3.age);
+	alert(studObj1.age);
+	
+	var studObj = new Student();
+	document.write(Student.prototype + '<br>');
+	document.write(studObj.prototype + '<br>');
+	document.write(studObj._proto_ + '<br>');
+	
+	document.write(typeof Student.prototype + '<br>');
+	document.write(typeof studObj.prototype + '<br>');
+	document.write(Student.prototype === studObj._proto_ + '<br>');
+	
+	function Stud () {
+		this.name = 'John';
+		this.gender = 'M';
+	}
+	
+	var studObj = new Stud();
+	
+	Stud.prototype.sayHi = function () {
+		alert('Hi');
+	}
+	
+	var studObj = new Stud();
+	var proto = Object.getPrototypeOf(studObj);
+	
+	alert(proto.constructor);
+	alert(proto.sayHi);
+	
+	let animal = {
+		eats: true
+	};
+	
+	let rabbit = Object.create(animal);
+	
+	alert("create method of prototype: " + rabbit.eats);
+	document.write(Object.getPrototypeOf(rabbit) === animal);
+	alert(Object.getPrototypeOf(rabbit) === animal);
+	
+</script>
+</body>
+</html>

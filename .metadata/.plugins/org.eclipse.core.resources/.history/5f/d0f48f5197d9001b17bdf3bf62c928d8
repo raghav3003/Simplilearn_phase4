@@ -1,0 +1,61 @@
+class Employee {
+	constructor (empname, age, gender, deptname, designation) {
+		this.empname = empname;
+		this.age = age;
+		this.gender = gender;
+		this.deptname = deptname;
+		this.designation = designation;
+	}
+	
+	get employeeEmpname() {
+		return this.empname;
+	}
+	
+	set employeeEmpname(x) {
+		this.empname = empname;
+	}
+	
+	
+	get employeeAge() {
+		return this.age;
+	}
+	
+	set employeeAge(x) {
+		this.age = age;
+	}
+	
+	get employeeGender() {
+		return this.gender;
+	}
+	
+	set employeeGender(x) {
+		this.gender = gender;
+	}
+	
+	get employeeDeptname() {
+		return this.deptname;
+	}
+	
+	set employeeDeptname(x) {
+		this.deptname = deptname;
+	}
+	
+	get employeeDesignation() {
+		return this.designation;
+	}
+	
+	set employeeDesignation(x) {
+		this.designation = designation;
+	}
+	
+	printDetails() {
+		console.log(`Employee name: ${this.name} age: {this.age} gender: {this.gender} deptname: {this.deptname} designation: {this.designation}`);
+	}
+	
+	static 
+	
+}
+
+
+
+

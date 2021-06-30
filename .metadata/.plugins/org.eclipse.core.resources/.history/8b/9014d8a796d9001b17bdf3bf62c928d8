@@ -1,0 +1,52 @@
+class Example {
+	constructor (empname, age, gender, deptname, designation) {
+		this.empname = empname;
+		this.age = age;
+		this.gender = gender;
+		this.deptname = deptname;
+		this.designation = designation;
+	}
+	
+	get empname() {
+		return this.empname;
+	}
+	
+	set empname(x) {
+		this.empname = empname;
+	}
+	
+	
+	get age() {
+		return this.age;
+	}
+	
+	set age(x) {
+		this.age = age;
+	}
+	
+	get empname() {
+		return this.empname;
+	}
+	
+	set empname(x) {
+		this.empname = empname;
+	}
+	
+	get empname() {
+		return this.empname;
+	}
+	
+	set empname(x) {
+		this.empname = empname;
+	}
+	
+	get empname() {
+		return this.empname;
+	}
+	
+	set empname(x) {
+		this.empname = empname;
+	}
+	
+	
+}
