@@ -1,0 +1,22 @@
+const age = prompt("Enter the age");
+let percentage = prompt("Enter percentage");
+
+const promise1 = new Promise(function(resolve, reject) {
+	if (age > 18 && age < 30) {
+		resolve("Age between 18 and 30");
+	} else {
+		reject("Invalid age");
+	}
+})
+
+promise1
+
+	.then(function success(result) {
+		console.log(result);
+	})
+	
+	.catch(function failure(result) {
+		console.log(result);
+	})
+	
+

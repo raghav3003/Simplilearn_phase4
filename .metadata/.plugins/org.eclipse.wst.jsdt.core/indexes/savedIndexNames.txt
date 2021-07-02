@@ -3,6 +3,5 @@ INDEX VERSION 1.4+/Users/raghav/simplilearn_phase_4/.metadata/.plugins/org.eclip
 883224723.index
 1860857731.index
 2928383836.index
-2709214008.index
 2372185523.index
 2688557995.index
