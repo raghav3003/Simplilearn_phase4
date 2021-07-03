@@ -8,6 +8,8 @@ import ArrayExample from './ArrayExample';
 import ListExample from './ListExample';
 import Music from './LifeCycleExample';
 import ComponentWillUnmount from './UnmountExample';
+import CounterExample from './CounterExample';
+import Login_Signup from './Login_Signup';
 
 class MyComponent extends React.Component {
     render () {
@@ -39,7 +41,7 @@ const Footer = (props) => {
 
 const myList = ['Raghav', 'Sam', 'Peter']
 
-ReactDOM.render(<ComponentWillUnmount />, document.getElementById("root"));
+ReactDOM.render(<Login_Signup />, document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
