@@ -10,8 +10,9 @@ import Music from './LifeCycleExample';
 import ComponentWillUnmount from './UnmountExample';
 import CounterExample from './CounterExample';
 import Login_Signup from './Login_Signup';
+import MainClass from './SinglePagApplication/Main';
 
-class MyComponent extends React.Component {
+/*class MyComponent extends React.Component {
     render () {
         return (
             <div>
@@ -40,8 +41,8 @@ const Footer = (props) => {
 }
 
 const myList = ['Raghav', 'Sam', 'Peter']
-
-ReactDOM.render(<Login_Signup />, document.getElementById("root"));
+*/
+ReactDOM.render(<MainClass />, document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

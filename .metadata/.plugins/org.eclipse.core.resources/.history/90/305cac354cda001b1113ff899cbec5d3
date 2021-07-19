@@ -1,2 +1,0 @@
-const age = prompt("Enter the age");
-let percentage = prompt("Enter percentage");
